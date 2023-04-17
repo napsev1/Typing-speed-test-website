@@ -1,0 +1,21 @@
+@keyframes color {
+    0%   { background: #360ec4; }
+    20%  { background: #5b80cf; }
+    40%  { background: #339ccc; }
+    60%  { background: #4ea2c9; }
+    80%  { background: #6c9297; }
+    100% { background: #333197; }
+  }
+  
+  body {
+    background: #33CCCC;
+    animation: color 9s infinite linear;
+    text-align: center;
+    padding: 2em;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Kavoon', sans-serif;
+    font-size: 2.5em;
+    color: white;
+  }
